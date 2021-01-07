@@ -1,0 +1,22 @@
+{
+  "name": "sw-protocol-handler-test",
+  "version": "1.0.0",
+  "description": "Testing Chrome SW bug when navigating from protocol handler",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielManning/sw-protocol-handler-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielManning/sw-protocol-handler-test/issues"
+  },
+  "homepage": "https://github.com/DanielManning/sw-protocol-handler-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
