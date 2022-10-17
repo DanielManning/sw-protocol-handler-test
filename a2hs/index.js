@@ -6,6 +6,7 @@ function randomValueFromArray(array) {
   return array[randomNo];
 }
 
+console.log('calling registerProtocolHandler in index.js...');
 navigator.registerProtocolHandler('web+fox', '/a2hs?foxlink=%s', 'web+fox links');
 
 setInterval(function() {
@@ -51,3 +52,4 @@ window.addEventListener('beforeinstallprompt', (e) => {
       });
   });
 });
+
